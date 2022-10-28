@@ -17,6 +17,7 @@ import java.util.NoSuchElementException;
 //Delete	DELETE	/books/{id}	"delete" route	Deletes the book
 //List	GET	/books	"index" or "list" route	Responds with a list of books
 @RestController
+@CrossOrigin
 @RequestMapping("/books")
 public class BookController {
 
